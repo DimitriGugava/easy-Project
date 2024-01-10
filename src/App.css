@@ -1,0 +1,128 @@
+.App {
+  display: flex;
+  width: auto;
+  height: 100vh;
+
+  margin: 0 auto;
+  justify-content: center; /* Center children horizontally */
+  align-items: center; /* Center children vertically */
+  background: var(--Yellow, #f4d04e);
+}
+
+.main_Box {
+  border: 0.1px solid red;
+  display: flex;
+  width: 327px;
+  height: 501px;
+  padding: 24px;
+  margin: 155px auto;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 20px;
+  border: 1px solid var(--Black, #111);
+  background: var(--Pure-White, #fff);
+  box-shadow: 8px 8px 0px 0px #000;
+}
+.upper_Image_Box {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 10px;
+  background: var(--Yellow, #f4d04e);
+}
+
+.lower_Box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+}
+.learning_Box {
+  display: flex;
+  padding: 4px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  background: var(--Yellow, #f4d04e);
+  color: var(--Black, #111);
+  font-family: "Figtree";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 18px */
+}
+
+.published_Text {
+  color: var(--Black, #111);
+  font-family: "Figtree";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 18px */
+}
+
+.html_CSS_Text {
+  align-self: stretch;
+  color: var(--Black, #111);
+  font-family: "Figtree";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 30px */
+}
+.lower_Box_Big_Text {
+  align-self: stretch;
+  color: var(--Grey, #7f7f7f);
+  font-family: "Figtree";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 21px */
+}
+.greg_Photo_Box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.greg_Text {
+  color: var(--Black, #111);
+  font-family: "Figtree";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 21px */
+}
+@media only screen and (min-width: 768px) {
+  .main_Box {
+    display: flex;
+    width: 384px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid var(--Black, #111);
+    background: var(--Pure-White, #fff);
+    box-shadow: 16px 16px 0px 0px #000;
+  }
+
+  .upper_Image_Box {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 10px;
+    background: var(--Yellow, #f4d04e);
+  }
+  .lower_Box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+  }
+}
